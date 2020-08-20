@@ -1,7 +1,7 @@
 import React from 'react';
 import { HeaderLayout } from '../styled/layout/Header';
 import { H6 } from '../styled/typo/Heading';
-import { title } from '../App.json';
+import { title } from '../config/app.json';
 
 const Header: React.FC = function Header() {
   return (
