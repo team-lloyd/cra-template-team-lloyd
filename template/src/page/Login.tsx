@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-import { useFirebaseAuthUI } from '../host/useFirebaseAuthUI';
+import { useFirebaseAuthUI } from '../host/infra/firebase/useFirebaseAuthUI';
 
 const container = 'firebaseui-auth-container';
 
